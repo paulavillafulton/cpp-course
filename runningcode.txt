@@ -1,0 +1,7 @@
+https://code.visualstudio.com/docs/cpp/config-msvc
+
+.\helloworld.exe
+
+
+PASSWORD FOR CLASS: 
+CPPSTSSS2020

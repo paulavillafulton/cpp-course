@@ -1,0 +1,7 @@
+// Exercise 6
+// Task1 average_func.h
+#include <iostream>
+
+using namespace std;
+ 
+int average_func(float &num11, float &num22);

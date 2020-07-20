@@ -1,0 +1,12 @@
+//Program with mistakes
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  cout << "There were several mistakes in this program\n" << endl;
+  cout << "But you corrected them\n" << endl;
+  cin.get();
+  return 0;
+}

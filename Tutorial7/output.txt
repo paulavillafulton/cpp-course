@@ -1,0 +1,3 @@
+The smallest number is 4.230
+The largest number is 234.230
+The average file in file test was 66.480

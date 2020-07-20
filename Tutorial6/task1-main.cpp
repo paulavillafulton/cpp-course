@@ -1,0 +1,29 @@
+// Exercise 6
+// Task1 main
+
+// Function definition (in seperate file)
+
+#include <iostream>
+#include "average_func.h"
+#include "average_func.cpp"
+
+using namespace std;
+
+//function declaration
+float average_func(float num1, float num2); // Function calls by value
+
+main()
+{ 
+    float num1, num2;
+    float avg_num;
+
+    // Prompt user to enter 2 numbers
+    cout << "Enter number 1: \n" ;
+    cin >> num1;
+
+    cout << "Enter number 2: \n" ;
+    cin >> num2;
+
+    avg_num = average_func(num1, num2); //call function average_func
+    cout << "The average of "<<num1<<" and "<<num2<<": is: "<<avg_num<<"\n";
+}

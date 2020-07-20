@@ -1,0 +1,26 @@
+// Exercise 6
+// Task2
+// by value
+
+#include <iostream>
+using namespace std;
+
+//function declaration
+void swap(int, int);
+main()
+{
+    int a = 10, b = 12;
+    cout << "Before swapping:\n";
+    cout << a <<" "<< b << "\n";
+    swap (a,b); // Call function swap
+}
+//function definition
+void swap(int a, int b)
+{
+    int temp;
+    temp = a;
+    a = b;
+    b = temp;
+    cout << "After swapping:\n";
+    cout << a << " " << b;
+}

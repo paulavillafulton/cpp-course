@@ -1,0 +1,9 @@
+Tutorial 3
+Task 1
+Paula Villa Fulton
+TUMID: ge93coh
+
+
+1) The output is "Two".
+2) If j is equal to 5, the output is "One".
+If the condition is (i & j) AND j is equal to 5, then the output is "Two".
